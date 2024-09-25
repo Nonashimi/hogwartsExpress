@@ -1,0 +1,44 @@
+@import './base.css';
+
+#app {
+  width: 1100px;
+  margin: 50px auto;
+  padding:0 0 30px;
+  background-color: #2f292b;
+  font-weight: normal;
+  border-radius: 50px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('https://kartinki.pics/uploads/posts/2021-07/thumbs/1625274530_22-kartinkin-com-p-garri-potter-fon-khogvarts-krasivie-foni-23.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+
+  
+}
